@@ -258,6 +258,10 @@ body {
     justify-content: center;
     position: relative;
     margin-bottom: 28px;
+
+    @media (max-width: 550px) {
+      justify-content: space-between;
+    }
   }
 
   &__logo-wrap {
@@ -284,6 +288,11 @@ body {
     right: 0;
     top: 50%;
     transform: translateY(-50%);
+
+    @media (max-width: 550px) {
+      position: static;
+      transform: none;
+    }
   }
 
   &__lang-toggle {
