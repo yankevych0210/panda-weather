@@ -592,6 +592,8 @@ const TRANSLATIONS = {
     border: 1px solid var(--color-border);
     border-radius: 12px;
     padding: 16px;
+    min-width: 0;
+    overflow: hidden;
   }
 }
 </style>

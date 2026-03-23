@@ -365,7 +365,9 @@ body {
     }
 
     @media (max-width: 640px) {
-      flex-direction: column;
+      > * {
+        flex: 1 1 100%;
+      }
     }
   }
 
